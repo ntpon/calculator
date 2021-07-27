@@ -8,5 +8,112 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1 class="text-center">Calculator</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="calculator-container">
+          <div class="calculator">
+            <div class="monitor">
+              <div class="monitor-result" id="monitor-result"></div>
+              <div class="monitor-number" id="monitor-number">0</div>
+            </div>
+            <div class="btn-container">
+              <button class="allclear" data-type="reset" id="allclear">
+                AC
+              </button>
+              <button class="clear" data-type="backspace" id="clear">C</button>
+              <button
+                class="operators"
+                data-type="operator"
+                id="remainder"
+                value="%"
+              >
+                %
+              </button>
+              <button
+                class="operators"
+                data-type="operator"
+                id="divide"
+                value="÷"
+              >
+                ÷
+              </button>
+              <button class="digits" data-type="number" id="digit-7" value="7">
+                7
+              </button>
+              <button class="digits" data-type="number" id="digit-8" value="8">
+                8
+              </button>
+              <button class="digits" data-type="number" id="digit-9" value="9">
+                9
+              </button>
+              <button
+                class="operators"
+                data-type="operator"
+                id="plus"
+                value="+"
+              >
+                +
+              </button>
+              <button class="digits" data-type="number" id="digit-4" value="4">
+                4
+              </button>
+              <button class="digits" data-type="number" id="digit-5" value="5">
+                5
+              </button>
+              <button class="digits" data-type="number" id="digit-6" value="6">
+                6
+              </button>
+              <button
+                class="operators"
+                data-type="operator"
+                id="minus"
+                value="-"
+              >
+                -
+              </button>
+              <button class="digits" data-type="number" id="digit-1" value="1">
+                1
+              </button>
+              <button class="digits" data-type="number" id="digit-2" value="2">
+                2
+              </button>
+              <button class="digits" data-type="number" id="digit-3" value="3">
+                3
+              </button>
+              <button
+                class="operators"
+                data-type="operator"
+                id="multiply"
+                value="x"
+              >
+                ×
+              </button>
+              <button class="digits" data-type="number" id="digit-0" value="0">
+                0
+              </button>
+              <button
+                class="decimal"
+                data-type="decimal"
+                id="decimal"
+                value="."
+              >
+                .
+              </button>
+              <button class="equals" data-type="equal" id="equals" value="=">
+                =
+              </button>
+            </div>
+          </div>
+          <div class="calculator-history" id="calculator-history">
+            <h2>History</h2>
+            <div class="history-container" id="history-container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
