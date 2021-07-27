@@ -4,6 +4,7 @@ let NUMBER_1 = 0;
 let NUMBER_2 = 0;
 let IS_USE_DECIMAL = false;
 let IS_START = true;
+
 const monitorNumber = document.getElementById('monitor-number');
 const monitorResult = document.getElementById('monitor-result');
 
